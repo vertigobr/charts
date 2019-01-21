@@ -1,0 +1,5 @@
+tfvalues.auto.tfvars
+backend.tf
+kubeconfig
+.terraform
+

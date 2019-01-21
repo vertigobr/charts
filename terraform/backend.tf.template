@@ -1,0 +1,14 @@
+terraform {
+  backend "s3" {
+    skip_requesting_account_id  = true
+    skip_credentials_validation = true
+    skip_get_ec2_platforms      = true
+    skip_metadata_api_check     = true
+    access_key                  = ""
+    secret_key                  = ""
+    endpoint                    = "nyc3.digitaloceanspaces.com"
+    region                      = "us-east-1" # Requires any valid AWS region
+    bucket                      = "vertigo-k8s" # Space name
+    key                         = "terraform/helm-charts.tfstate"
+  }
+}
