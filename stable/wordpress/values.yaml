@@ -112,7 +112,7 @@ mariadb:
     user: bn_wordpress
     ## If the password is not specified, mariadb will generates a random password
     ##
-    # password:
+    password: wordpr3sspwd2019
 
   ## MariaDB admin password
   ## ref: https://github.com/bitnami/bitnami-docker-mariadb/blob/master/README.md#setting-the-root-password-on-first-run
