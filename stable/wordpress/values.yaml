@@ -117,8 +117,8 @@ mariadb:
   ## MariaDB admin password
   ## ref: https://github.com/bitnami/bitnami-docker-mariadb/blob/master/README.md#setting-the-root-password-on-first-run
   ##
-  # rootUser:
-  #   password:
+  rootUser:
+    password: thorpwd2019
 
   ## Enable persistence using Persistent Volume Claims
   ## ref: http://kubernetes.io/docs/user-guide/persistent-volumes/
@@ -141,7 +141,8 @@ mariadb:
 ## For minikube, set this to NodePort, elsewhere use LoadBalancer or ClusterIP
 ##
 service:
-  type: LoadBalancer
+  #type: LoadBalancer
+  type: ClusterIP
   # HTTP Port
   port: 80
   # HTTPS Port
