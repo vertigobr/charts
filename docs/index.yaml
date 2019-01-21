@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   wordpress:
   - appVersion: 5.0.3
-    created: 2019-01-21T17:17:43.350231-02:00
+    created: 2019-01-21T17:44:11.77992-02:00
     description: Web publishing platform for building blogs and websites.
-    digest: 7eaf03c1c8aada9316e223dd93b7aa8204d0cf25b4ee289ffc53fbf40b1ce903
+    digest: 364ae55cfdd00367dd6620bbfd61eb01d01ba01eee0133006e90f7076216ae3a
     engine: gotpl
     home: http://www.wordpress.com/
     icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
@@ -25,4 +25,4 @@ entries:
     urls:
     - wordpress-5.1.2.tgz
     version: 5.1.2
-generated: 2019-01-21T17:17:43.347893-02:00
+generated: 2019-01-21T17:44:11.778232-02:00
