@@ -1,0 +1,6 @@
+apiVersion: v1
+appVersion: "1.0"
+description: Chart Helm para a instalação de um servidor Mulesoft de demonstração da Vertigo
+name: mulesoft
+version: 0.2.0
+icon: https://vertigobr.github.io/charts/vertigo-helm-icon.png

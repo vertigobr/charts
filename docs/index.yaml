@@ -1,8 +1,20 @@
 apiVersion: v1
 entries:
+  mulesoft:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2019-01-24T12:17:14.163565796-02:00
+    description: Chart Helm para a instalação de um servidor Mulesoft de demonstração
+      da Vertigo
+    digest: 66d87463b1240910df6dd0ddaba01bd1db5dc1e6c70e5c7899b68a622eeaff50
+    icon: https://vertigobr.github.io/charts/vertigo-helm-icon.png
+    name: mulesoft
+    urls:
+    - mulesoft-0.2.0.tgz
+    version: 0.2.0
   wordpress:
   - appVersion: 5.0.3
-    created: 2019-01-21T18:34:04.857948-02:00
+    created: 2019-01-24T12:17:14.164936196-02:00
     description: Web publishing platform for building blogs and websites.
     digest: 7411efde5a6b8033d335471010fef9f7ccf32e4165e812b5835e660b90944f4e
     engine: gotpl
@@ -25,4 +37,4 @@ entries:
     urls:
     - wordpress-5.1.2.tgz
     version: 5.1.2
-generated: 2019-01-21T18:34:04.855645-02:00
+generated: 2019-01-24T12:17:14.163189816-02:00
