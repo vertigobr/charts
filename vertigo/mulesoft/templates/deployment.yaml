@@ -37,6 +37,33 @@ spec:
               port: http
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
+      volumeMounts:
+        - mountPath: /opt/mule/apps
+          name: mule-apps
+          subPath: apps
+        - mountPath: /opt/mule/conf
+          name: mule-conf
+          subPath: conf
+        - mountPath: /opt/mule/domains
+          name: mule-domains
+          subPath: domains
+        - mountPath: /opt/mule/logs
+          name: mule-logs
+          subPath: logs
+      volumes:
+      - name: mule-apps
+        persistentVolumeClaim:
+          claimName: mule-apps
+      - name: mule-conf
+        persistentVolumeClaim:
+          claimName: mule-conf
+      - name: mule-domains
+        persistentVolumeClaim:
+          claimName: mule-domains
+      - name: mule-logs
+        persistentVolumeClaim:
+          claimName: mule-logs
+      
       {{- with .Values.nodeSelector }}
       nodeSelector:
         {{- toYaml . | nindent 8 }}

@@ -22,10 +22,10 @@ ingress:
   certManager: true
   #paths: []
   hosts:
-  - name: mulesoft.boomingvc.ga
+  - name: mulesoft.vertigoentre.ga
     tls: true
      
-    tlsSecret: mulesoft.boomingvc.ga-tls
+    tlsSecret: mulesoft.vertigoentre.ga-tls
     annotations: 
       kubernetes.io/ingress.class: nginx
       kubernetes.io/tls-acme: true
