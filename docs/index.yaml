@@ -1,7 +1,7 @@
 apiVersion: v1
 entries:
   docker-compose-muleimg:
-  - created: 2019-01-31T16:12:39.360256985-02:00
+  - created: 2019-01-31T18:35:30.221080891-02:00
     description: A generated Helm Chart for docker-compose-muleimg from Skippbox Kompose
     digest: ab18eb5c4197801da60f454f75a1d3c3df99f076cbea200b4f0f3124356ed488
     keywords:
@@ -13,7 +13,7 @@ entries:
   gitlab:
   - apiVersion: v1
     appVersion: master
-    created: 2019-01-31T16:12:39.372819419-02:00
+    created: 2019-01-31T18:35:30.245936084-02:00
     description: Web-based Git-repository manager with wiki and issue-tracking features.
     digest: 428d3dff7a41f5584e1521c832612de92a0aadb18cfc3e33ba4eafe3a871af35
     home: https://about.gitlab.com/
@@ -32,18 +32,18 @@ entries:
   mulesoft:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-01-31T16:12:39.373067803-02:00
+    created: 2019-01-31T18:35:30.246284541-02:00
     description: Chart Helm para a instalação de um servidor Mulesoft de demonstração
       da Vertigo
-    digest: 66d87463b1240910df6dd0ddaba01bd1db5dc1e6c70e5c7899b68a622eeaff50
+    digest: b239476312ee3f8e0b6aedde7ce2d27317e4caa5d664f51c9d5676f2d483bb90
     icon: https://vertigobr.github.io/charts/vertigo-helm-icon.png
     name: mulesoft
     urls:
-    - mulesoft-0.2.0.tgz
-    version: 0.2.0
+    - mulesoft-0.3.0.tgz
+    version: 0.3.0
   wordpress:
   - appVersion: 5.0.3
-    created: 2019-01-31T16:12:39.37426613-02:00
+    created: 2019-01-31T18:35:30.26907299-02:00
     description: Web publishing platform for building blogs and websites.
     digest: 7411efde5a6b8033d335471010fef9f7ccf32e4165e812b5835e660b90944f4e
     engine: gotpl
@@ -66,4 +66,4 @@ entries:
     urls:
     - wordpress-5.1.2.tgz
     version: 5.1.2
-generated: 2019-01-31T16:12:39.359916568-02:00
+generated: 2019-01-31T18:35:30.203489112-02:00
