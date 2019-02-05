@@ -8,7 +8,7 @@ image:
   repository: vertigo/mule
   ## tag: 3 para versão com upload, tag: latest para versão 4 sem upload
   tag: 3
-  #pullPolicy: IfNotPresent
+  pullPolicy: Always
 
 nameOverride: ""
 fullnameOverride: ""
